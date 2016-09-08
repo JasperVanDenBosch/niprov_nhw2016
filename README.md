@@ -49,6 +49,11 @@ provenance record "mcflirt -in T1.nii -out T1_reg.nii.gz"
 provenance export --file T1_reg.nii.gz
 ```
 
+#### Web browser
+```shell
+provenance serve
+```
+
 #### Python API
 ```python
 from niprov import ProvenanceContext
@@ -59,11 +64,6 @@ for image in provenance.get().bySubject('05aug14test'):
 
 # Make sure two files were acquired with the same parameters:
 img1.compare(img2).assertEqual()
-```
-
-#### Web browser
-```shell
-provenance serve
 ```
 
 #### Configuration
