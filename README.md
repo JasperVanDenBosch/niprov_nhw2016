@@ -1,24 +1,23 @@
+# Niprov
+## Neurohackweek 2016
+## Jasper J.F. van den Bosch
 
-## Niprov
-# Neurohackweek 2016
-# Jasper J.F. van den Bosch
 
-
-Download test data
+Download sample data
 ```shell
 wget https://github.com/ilogue/niprov/archive/master.zip
 unzip master.zip
 cd niprov-master
 ```
 
+Install Niprov
 ```shell
 pip install niprov
-pip install -r optional.txt
 ```
 
-With optional dependencies
+Optional packages
 ```shell
-pip install pydicom nibabel mne matplotlib
+pip install -r optional.txt # pydicom nibabel mne matplotlib
 ```
 
 
