@@ -29,9 +29,11 @@ pip install niprov
 pip install -r optional.txt # pydicom nibabel mne matplotlib
 ```
 
-Why niprov?
+#### Why niprov?
 
-What is provenance?
+* reproducibility
+* **N**euro**I**maging **Prov**enance
+* provenance: history, origin of a file
 
 Manually too much, instead track along 
 
