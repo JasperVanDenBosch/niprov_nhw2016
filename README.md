@@ -32,10 +32,10 @@ pip install -r optional.txt # pydicom nibabel mne matplotlib
 #### Why niprov?
 
 * reproducibility
-* **N**euro**I**maging **Prov**enance
+* need story, metadata of brain images
 * provenance: history, origin of a file
-
-Manually too much, instead track along 
+* **N**euro**I**maging **Prov**enance
+ 
 
 #### Commandline API
 
