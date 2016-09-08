@@ -51,14 +51,15 @@ provenance export --file T1_reg.nii.gz
 ```python
 from niprov import ProvenanceContext
 provenance = ProvenanceContext()
+```
 
-
-Data storage
+#### Configuration
 ```shell
 cp niprov.cfg ~/niprov.cfg
 gedit ~/niprov.cfg
 ```
 
+#### Web browser
 ```shell
 provenance serve
 ```
