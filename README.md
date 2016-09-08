@@ -1,29 +1,30 @@
 # Niprov
-## Neurohackweek 2016
-Jasper J.F. van den Bosch
+> Neurohackweek 2016
 
-Slides at neurohackweek.github.com/
+> Jasper J.F. van den Bosch
 
-Setup python environment
+*Slides at neurohackweek.github.com*
+
+#### Setup python environment
 ```shell
 virtualenv env
 source env/bin/activate
 pip install -U pip
 ```
 
-Download sample data
+#### Download sample data
 ```shell
 wget https://github.com/ilogue/niprov/archive/master.zip
 unzip master.zip
 cd niprov-master
 ```
 
-Install Niprov
+#### Install Niprov
 ```shell
 pip install niprov
 ```
 
-Optional packages
+#### Optional packages
 ```shell
 pip install -r optional.txt # pydicom nibabel mne matplotlib
 ```
@@ -34,7 +35,7 @@ What is provenance?
 
 Manually too much, instead track along 
 
-Commandline API
+#### Commandline API
 
 ```shell
 provenance -h
@@ -46,7 +47,7 @@ provenance record "mcflirt -in T1.nii -out T1_reg.nii.gz"
 provenance export --file T1_reg.nii.gz
 ```
 
-Python API
+#### Python API
 ```python
 from niprov import ProvenanceContext
 provenance = ProvenanceContext()
