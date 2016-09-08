@@ -53,15 +53,15 @@ from niprov import ProvenanceContext
 provenance = ProvenanceContext()
 ```
 
+#### Web browser
+```shell
+provenance serve
+```
+
 #### Configuration
 ```shell
 cp niprov.cfg ~/niprov.cfg
 gedit ~/niprov.cfg
-```
-
-#### Web browser
-```shell
-provenance serve
 ```
 
 
