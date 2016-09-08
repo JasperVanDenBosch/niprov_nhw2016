@@ -53,6 +53,12 @@ provenance export --file T1_reg.nii.gz
 ```python
 from niprov import ProvenanceContext
 provenance = ProvenanceContext()
+
+for image in provenance.get().bySubject('05aug14test'):
+    image.viewSnapshot() 
+
+# Make sure two files were acquired with the same parameters:
+img1.compare(img2).assertEqual()
 ```
 
 #### Web browser
